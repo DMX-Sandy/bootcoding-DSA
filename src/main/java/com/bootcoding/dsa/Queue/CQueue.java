@@ -89,6 +89,7 @@ public class CQueue {
             q.enQueue(3);
             q.enQueue(4);
             q.enQueue(5);
+            q.deQueue();
 
             // Fails to enqueue because front == 0 && rear == SIZE - 1
             q.enQueue(6);
