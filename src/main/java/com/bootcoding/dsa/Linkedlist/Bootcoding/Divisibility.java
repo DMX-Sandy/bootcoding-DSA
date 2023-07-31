@@ -1,8 +1,11 @@
-package com.bootcoding.dsa.Linkedlist;
+package com.bootcoding.dsa.Linkedlist.Bootcoding;
 
 public class Divisibility {
     public static void main(String[] args) {
         Node head=createNode();
+        //traverse(head);
+
+        reverse(head);
         print(head);
     }
     static class Node{
@@ -35,4 +38,24 @@ public class Divisibility {
        }
 
    }
+   public static void traverse(Node head){
+       Node temp=head;
+        if(temp==null){
+            return;
+        }
+
+        traverse(temp.next);
+       System.out.println(temp.data);
+    }
+
+    public static Node reverse(Node head){
+        Node temp=head;
+        Node n=new Node(3);
+       while(temp.next!=null){
+           temp.next.data=head.data;
+           head.data=temp.next.data;
+           temp=temp.next;
+       }
+       return temp;
+    }
 }

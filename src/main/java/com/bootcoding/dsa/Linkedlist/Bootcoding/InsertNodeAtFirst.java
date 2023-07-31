@@ -1,4 +1,4 @@
-package com.bootcoding.dsa.Linkedlist;
+package com.bootcoding.dsa.Linkedlist.Bootcoding;
 
 public class InsertNodeAtFirst {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.bootcoding.dsa.Linkedlist;
+package com.bootcoding.dsa.Linkedlist.Bootcoding;
 
 public class InsertAtLast {
     public static void main(String[] args) {
