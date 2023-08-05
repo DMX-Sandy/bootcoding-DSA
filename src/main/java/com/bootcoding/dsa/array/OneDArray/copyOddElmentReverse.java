@@ -1,5 +1,5 @@
 //Copy odd element of an array into another in a reverse order.
-package com.bootcoding.dsa.array;
+package com.bootcoding.dsa.array.OneDArray;
 
 public class copyOddElmentReverse {
     public static void main(String[] args) {
