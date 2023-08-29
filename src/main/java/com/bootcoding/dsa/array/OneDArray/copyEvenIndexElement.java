@@ -1,5 +1,5 @@
 //Copy even index element of an array into another array.
-package com.bootcoding.dsa.array;
+package com.bootcoding.dsa.array.OneDArray;
 
 public class copyEvenIndexElement {
     public static void main(String[] args) {
