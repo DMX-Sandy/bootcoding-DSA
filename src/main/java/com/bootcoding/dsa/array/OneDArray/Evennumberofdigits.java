@@ -1,4 +1,4 @@
-package com.bootcoding.dsa.array;
+package com.bootcoding.dsa.array.OneDArray;
 
 public class Evennumberofdigits {
     public static void main(String[] args) {

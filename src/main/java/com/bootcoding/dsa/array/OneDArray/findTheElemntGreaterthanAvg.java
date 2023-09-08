@@ -1,5 +1,5 @@
 //Write a program to find the number of elements in an array that are greater than the average.
-package com.bootcoding.dsa.array;
+package com.bootcoding.dsa.array.OneDArray;
 
 public class findTheElemntGreaterthanAvg {
     public static void main(String[] args) {

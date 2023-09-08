@@ -1,4 +1,4 @@
-package com.bootcoding.dsa.array;
+package com.bootcoding.dsa.array.OneDArray;
 
 public class lc_2011 {
     public static void main(String[] args) {
