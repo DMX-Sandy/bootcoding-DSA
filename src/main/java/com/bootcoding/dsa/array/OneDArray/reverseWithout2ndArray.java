@@ -1,5 +1,5 @@
 //Reverse Array without using second array
-package com.bootcoding.dsa.array;
+package com.bootcoding.dsa.array.OneDArray;
 
 public class reverseWithout2ndArray {
     public static void main(String[] args) {

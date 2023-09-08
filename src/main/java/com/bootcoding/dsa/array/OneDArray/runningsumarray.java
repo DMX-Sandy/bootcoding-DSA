@@ -10,7 +10,7 @@
         Output: [1,3,6,10]
         Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].*/
 
-package com.bootcoding.dsa.array;
+package com.bootcoding.dsa.array.OneDArray;
 
 public class runningsumarray {
     public static void main(String[] args) {
