@@ -1,4 +1,4 @@
-package com.bootcoding.dsa.Arrrays;
+package com.bootcoding.dsa.Arrrays.operations.general;
 
 public class InsertAtMiddle {
     public static void main(String[] args) {
