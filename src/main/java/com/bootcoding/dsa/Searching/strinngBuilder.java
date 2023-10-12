@@ -1,4 +1,4 @@
-package com.bootcoding.dsa.string;
+package com.bootcoding.dsa.Searching;
 
 public class strinngBuilder {
     public static void main(String[] args) {
