@@ -1,4 +1,4 @@
-package com.bootcoding.dsa.string;
+package com.bootcoding.dsa.Searching;
 
 import java.util.Arrays;
 

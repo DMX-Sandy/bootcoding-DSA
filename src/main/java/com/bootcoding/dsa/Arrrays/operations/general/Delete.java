@@ -3,7 +3,7 @@ package com.bootcoding.dsa.Arrrays.operations.general;
 public class Delete {
     public static void main(String[] args) {
         int [] arr= {1,2,3,4,5,6,7};
-        int indextoremove=2;
+        int indextoremove=4;
 
         if(indextoremove>=0 && indextoremove< arr.length){
             int [] dummy= new int[arr.length-1];

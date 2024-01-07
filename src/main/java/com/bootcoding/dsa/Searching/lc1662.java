@@ -1,4 +1,4 @@
-package com.bootcoding.dsa.string;
+package com.bootcoding.dsa.Searching;
 
 public class lc1662 {
     public static void main(String[] args){

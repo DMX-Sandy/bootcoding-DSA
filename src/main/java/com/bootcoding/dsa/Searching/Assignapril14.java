@@ -4,7 +4,7 @@ Marks1,Marks2,Marks3
 For Example: "72,65,77"
 Calculate its average and percentage and append it to input string and print in following format
 72,65,77,XX,XX*/
-package com.bootcoding.dsa.string;
+package com.bootcoding.dsa.Searching;
 
 public class Assignapril14 {
     public static void main(String[] args) {

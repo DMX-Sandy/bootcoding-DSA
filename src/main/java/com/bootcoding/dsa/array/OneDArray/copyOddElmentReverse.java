@@ -12,14 +12,24 @@ public class copyOddElmentReverse {
         }
         int index=count-1;
         int[] arr2 = new int[count];
-        for (int j = 0; j < arr.length; j++) {
-            if (arr[j] % 2 != 0) {
-                arr2[index--] = arr[j];
+//        for (int j = 0; j < arr.length; j++) {
+//            if (arr[j] % 2 != 0) {
+//                arr2[index--] = arr[j];
+//            }
+//        }
+
+        for(int i=arr.length-1;i>=0;i--){
+            if(arr[i]%2 != 0){
+                arr2[i]= arr[i];
             }
         }
 
-        for(int k = 0;k<count;k++){
-            System.out.print(arr2[k]+" ");
+        for(int i=arr.length-1;i>=0;i--){
+            System.out.println();
         }
+
+//        for(int k = 0;k<count;k++){
+//            System.out.print(arr2[k]+" ");
+//        }
     }
 }

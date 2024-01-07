@@ -1,4 +1,4 @@
-package com.bootcoding.dsa.array;
+package com.bootcoding.dsa.array.OneDArray;
 
 public class lc2535 {
     public static void main(String[] args) {

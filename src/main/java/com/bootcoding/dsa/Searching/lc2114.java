@@ -1,4 +1,4 @@
-package com.bootcoding.dsa.string;
+package com.bootcoding.dsa.Searching;
 
 public class lc2114 {
     public static void main(String[] args) {
