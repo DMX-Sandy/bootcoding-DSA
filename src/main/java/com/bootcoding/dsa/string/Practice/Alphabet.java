@@ -1,4 +1,4 @@
-package com.bootcoding.dsa.string;
+package com.bootcoding.dsa.string.Practice;
 
 import javax.crypto.spec.PSource;
 

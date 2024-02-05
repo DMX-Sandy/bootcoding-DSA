@@ -1,4 +1,4 @@
-package com.bootcoding.dsa.string;
+package com.bootcoding.dsa.string.Practice;
 
 public class person {
     public static class Person {

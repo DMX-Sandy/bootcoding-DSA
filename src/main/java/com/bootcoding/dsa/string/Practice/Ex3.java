@@ -1,4 +1,4 @@
-package com.bootcoding.dsa.string;
+package com.bootcoding.dsa.string.Practice;
 
 public class Ex3 {
     public static void main(String[] args) {
