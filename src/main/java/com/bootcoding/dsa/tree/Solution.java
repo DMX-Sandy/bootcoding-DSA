@@ -1,4 +1,4 @@
-package com.bootcoding.dsa;
+package com.bootcoding.dsa.tree;
 
 class Solution {
     public String truncateSentence(String s, int k) {
