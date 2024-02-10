@@ -1,4 +1,4 @@
-package com.bootcoding.dsa.recurrsion;
+package com.bootcoding.dsa.recurrsion.old;
 
 public class evenAssending {
     public static void even(int n){

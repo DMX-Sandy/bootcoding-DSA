@@ -1,4 +1,4 @@
-package com.bootcoding.dsa.recurrsion;
+package com.bootcoding.dsa.recurrsion.old;
 
 public class fibonnacci {
     public static int fib(int n){
@@ -12,7 +12,7 @@ public class fibonnacci {
     }
 
     public static void main(String[] args) {
-        int res=fib(13);
+        int res=fib(7);
         System.out.println(res);
     }
 }
