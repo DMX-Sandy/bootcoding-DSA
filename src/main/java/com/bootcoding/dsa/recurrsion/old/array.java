@@ -1,4 +1,4 @@
-package com.bootcoding.dsa.recurrsion;
+package com.bootcoding.dsa.recurrsion.old;
 
 public class array {
     public static void arr(int []a,int i){
