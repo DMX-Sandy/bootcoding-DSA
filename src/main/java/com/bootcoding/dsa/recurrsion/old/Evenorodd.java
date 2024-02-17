@@ -1,4 +1,4 @@
-package com.bootcoding.dsa.recurrsion;
+package com.bootcoding.dsa.recurrsion.old;
 
 public class Evenorodd {
     private static void evenoddMethod(int n){
