@@ -1,4 +1,4 @@
-package com.bootcoding.leetcode75.array_string;
+package com.bootcoding.leetcode75.array;
 
 public class lc1929 {
     public static void main(String[] args) {
