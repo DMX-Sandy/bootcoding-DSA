@@ -6,7 +6,7 @@ public class Lc_2958 {
     public static void main(String[] args) {
                 int [] nums ={1,2,1,2,1,2,1,2};
                 int k =1;
-        System.out.println(maxSubarrayLength(nums,k));
+                System.out.println(maxSubarrayLength(nums,k));
     }
     public static int maxSubarrayLength(int[] nums, int k) {
         int ans = 0;
