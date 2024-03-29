@@ -10,6 +10,7 @@ public class LC_2962 {
     public long countSubarrays(int[] nums, int k) {
         int mx = Arrays.stream(nums).max().getAsInt();
         long ans = 0;
+
         int l = 0,r=0,n=nums.length;
 
         while (r < n) {
