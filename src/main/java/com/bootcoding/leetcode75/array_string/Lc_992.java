@@ -13,7 +13,6 @@ public class Lc_992 {
     private static int subarraysWithAtMostKDistinct(int[] nums, int k) {
         int ans = 0;
         int[] count = new int[nums.length + 1];
-
         for (int l = 0, r = 0; r < nums.length; ++r) {
             if (++count[nums[r]] == 1)
                 --k;
