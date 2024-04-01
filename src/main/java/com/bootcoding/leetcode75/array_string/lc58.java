@@ -5,6 +5,7 @@ public class lc58 {
       String s = "Hello World";
         System.out.println(lengthOfLastWord(s));
     }
+
     public static int lengthOfLastWord(String s){
         String [] s1= s.split(" ");
         return s1[s1.length-1].length();
