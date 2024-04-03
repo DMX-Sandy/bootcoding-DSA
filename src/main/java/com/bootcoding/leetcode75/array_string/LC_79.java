@@ -4,9 +4,10 @@ public class LC_79 {
     public static void main(String[] args) {
         char [] [] board = {{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'}};
         String Word= "ABCCED";
+        System.out.println(exist(board,Word));
     }
 
-    public boolean exist(char[][] board, String word) {
+    public static  boolean exist(char[][] board,String word) {
         int m = board.length;
         int n = board[0].length;
 
@@ -25,7 +26,7 @@ public class LC_79 {
         return false;
     }
 
-    private boolean backtrack(char[][] board, String word, boolean[][] visited, int i, int j, int index) {
+    private static boolean backtrack(char[][] board, String word, boolean[][] visited, int i, int j, int index) {
         if (index == word.length()) {
             return true;
         }
