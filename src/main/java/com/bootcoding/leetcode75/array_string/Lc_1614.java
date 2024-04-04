@@ -5,6 +5,7 @@ public class Lc_1614 {
         String s = "(1+(2*3)+((8)/4))+1";
         System.out.println(maxDepth(s));
     }
+
     public static int maxDepth(String s) {
         int count = 0;
         int maxNum = 0;
