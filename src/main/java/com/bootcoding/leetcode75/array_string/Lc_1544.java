@@ -20,7 +20,6 @@ public class Lc_1544 {
                 endPosition++;
             }
         }
-
         // Convert the modified character array to a string and return only the valid portion
         return new String(charArray).substring(0, endPosition);
     }
