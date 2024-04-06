@@ -5,7 +5,6 @@ public class Lc_1249 {
         String s = "lee(t(c)o)de)";
         System.out.println(minRemoveToMakeValid(s));
     }
-
     public static String minRemoveToMakeValid(String s) {
         int open=0,close=0,flag=0;
         for(int i=0;i<s.length();i++){
