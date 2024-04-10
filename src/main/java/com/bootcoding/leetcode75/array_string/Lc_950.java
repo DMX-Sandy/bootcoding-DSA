@@ -10,24 +10,23 @@ public class Lc_950 {
         System.out.println(deckRevealedIncreasing(deck));
     }
     public static int[] deckRevealedIncreasing(int[] deck) {
-        Arrays.sort(deck); // Sort the deck in increasing order
+        Arrays.sort(deck);
 
         int n = deck.length;
         int[] result = new int[n];
         Deque<Integer> indices = new LinkedList<>();
 
         for (int i = 0; i < n; i++) {
-            indices.add(i); // Initialize deque with indices 0, 1, 2, ..., n-1
+            indices.add(i);
         }
 
         for (int card : deck) {
-            int idx = indices.poll(); // Get the next available index
-            result[idx] = card; // Place the card in the result array
+            int idx = indices.poll();
+            result[idx] = card;
             if (!indices.isEmpty()) {
-                indices.add(indices.poll()); // Move the used index to the end of deque
+                indices.add(indices.poll());
             }
         }
-
         return result;
     }
 }
