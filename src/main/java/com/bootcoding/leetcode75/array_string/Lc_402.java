@@ -3,6 +3,7 @@ package com.bootcoding.leetcode75.array_string;
 import java.util.Stack;
 
 public class Lc_402 {
+
     public static void main(String[] args) {
         String num  = "1432219";
         int k = 3;
