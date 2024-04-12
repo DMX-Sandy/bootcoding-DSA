@@ -34,9 +34,7 @@ public class Lc_42 {
                 right[i]=right[i+1];
             }
         }
-
         int sum=0;
-
 
         for(int i=0; i<n;i++) {
             int waterLeve=Math.min(left[i],right[i]);
