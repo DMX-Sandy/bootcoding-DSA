@@ -45,7 +45,6 @@ public class Lc_42 {
                 sum+=trappedWater;
             }
         }
-
         return sum;
     }
 }
