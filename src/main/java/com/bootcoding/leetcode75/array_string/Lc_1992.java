@@ -22,10 +22,8 @@ public class Lc_1992 {
                 }
             }
         }
-
         return result.toArray(new int[result.size()][]);
     }
-
     private static int[] findFarmlandCoordinates(int[][] land, int row, int col) {
         int[] coordinates = new int[4];
         coordinates[0] = row;
@@ -48,7 +46,6 @@ public class Lc_1992 {
                 land[i][j] = 0;
             }
         }
-
         return coordinates;
     }
 }
