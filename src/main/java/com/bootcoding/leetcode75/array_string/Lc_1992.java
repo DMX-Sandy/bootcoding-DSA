@@ -35,7 +35,7 @@ public class Lc_1992 {
         int r = row;
         int c = col;
 
-        // Finding the bottom-right corner of the farmland group
+
         while (r < m && land[r][col] == 1) r++;
         while (c < n && land[row][c] == 1) c++;
         coordinates[2] = r - 1;
