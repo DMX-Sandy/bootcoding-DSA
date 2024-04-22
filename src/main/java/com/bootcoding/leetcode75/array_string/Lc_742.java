@@ -37,7 +37,6 @@ public class Lc_742 {
             }
             level++;
         }
-
         return -1;
     }
 
