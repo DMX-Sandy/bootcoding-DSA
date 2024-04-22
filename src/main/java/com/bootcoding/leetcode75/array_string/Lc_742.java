@@ -1,0 +1,63 @@
+package com.bootcoding.leetcode75.array_string;
+
+import java.util.*;
+
+public class Lc_742 {
+    public static void main(String[] args) {
+        String [] deadends ={"8887","8889","8878","8898","8788","8988","7888","9888"};
+        String target = "8888";
+        System.out.println(openLock(deadends,target));
+    }
+    public static int openLock(String[] deadends, String target) {
+        Set<String> deadendSet = new HashSet<>(Arrays.asList(deadends));
+        Queue<String> queue = new LinkedList<>();
+        Set<String> visited = new HashSet<>();
+
+        queue.offer("0000");
+        visited.add("0000");
+        int level = 0;
+
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+
+            while (size-- > 0) {
+                String current = queue.poll();
+
+                if (deadendSet.contains(current)) continue;
+                if (current.equals(target)) return level;
+
+                List<String> nextOptions = nextOptions(current);
+
+                for (String option : nextOptions) {
+                    if (!visited.contains(option)) {
+                        queue.offer(option);
+                        visited.add(option);
+                    }
+                }
+            }
+            level++;
+        }
+
+        return -1;
+    }
+
+    private static char  turnBottom(char c) {
+        return (c == '9' ? '0' : (char)(c + 1));
+    }
+
+    private static char turnUp(char c) {
+        return (c == '0' ? '9' : (char)(c - 1));
+    }
+
+    private static List<String> nextOptions(String s) {
+        List<String> ans = new ArrayList<>();
+        for (int i = 0; i < 4; i++) {
+            StringBuilder copy = new StringBuilder(s);
+            copy.setCharAt(i, turnBottom(s.charAt(i)));
+            ans.add(copy.toString());
+            copy.setCharAt(i, turnUp(s.charAt(i)));
+            ans.add(copy.toString());
+        }
+        return ans;
+    }
+}
