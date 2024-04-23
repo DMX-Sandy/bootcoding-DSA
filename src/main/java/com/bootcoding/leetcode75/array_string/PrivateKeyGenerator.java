@@ -22,7 +22,6 @@ public class PrivateKeyGenerator {
         secureRandom.nextBytes(privateKey);
         return privateKey;
     }
-
     // Method to convert a byte array to a hexadecimal string
     public static String bytesToHex(byte[] bytes) {
         StringBuilder hexString = new StringBuilder();
