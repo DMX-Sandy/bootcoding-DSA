@@ -7,7 +7,6 @@ public class PrivateKeyGenerator {
     public static void main(String[] args) {
         // Generate a private key of length 16 bytes
         byte[] privateKeyBytes = generatePrivateKey(16);
-
         // Convert the byte array to a hexadecimal string for representation
         String privateKeyHex = bytesToHex(privateKeyBytes);
 
