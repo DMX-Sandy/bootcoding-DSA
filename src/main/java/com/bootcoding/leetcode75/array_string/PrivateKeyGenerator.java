@@ -3,7 +3,6 @@ package com.bootcoding.leetcode75.array_string;
 import java.security.SecureRandom;
 
 public class PrivateKeyGenerator {
-
     public static void main(String[] args) {
         // Generate a private key of length 16 bytes
         byte[] privateKeyBytes = generatePrivateKey(16);
