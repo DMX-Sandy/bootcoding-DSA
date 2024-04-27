@@ -11,7 +11,6 @@ public class PrivateKeyGenerator {
         // Print the generated private key
         System.out.println("Generated Private Key: " + privateKeyHex);
     }
-
     // Method to generate a private key of specified length in bytes
     public static byte[] generatePrivateKey(int length) {
         SecureRandom secureRandom = new SecureRandom();
