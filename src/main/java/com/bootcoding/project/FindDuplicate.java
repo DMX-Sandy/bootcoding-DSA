@@ -1,4 +1,4 @@
-package com.bootcoding.leetcode75.array_string;
+package com.bootcoding.project;
 
 public class FindDuplicate {
     public static void main(String[] args) {
