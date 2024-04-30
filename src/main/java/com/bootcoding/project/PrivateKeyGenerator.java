@@ -1,4 +1,4 @@
-package com.bootcoding.leetcode75.array_string;
+package com.bootcoding.project;
 
 import java.security.SecureRandom;
 
