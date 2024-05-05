@@ -17,6 +17,8 @@ public class LC_1700 {
                 return sandwiches.length - i;
             --count[sandwiches[i]];
         }
+
         return 0;
+
     }
 }
