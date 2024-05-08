@@ -23,5 +23,4 @@ public class SumofDigitMustbePalindrome {
         else
             return 0;
     }
-
 }
