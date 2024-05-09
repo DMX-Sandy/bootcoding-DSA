@@ -18,6 +18,7 @@ public class SumofDigitMustbePalindrome {
             sum= sum/10;
 
         }
+
         if(sum == reverse)
             return 1;
         else
