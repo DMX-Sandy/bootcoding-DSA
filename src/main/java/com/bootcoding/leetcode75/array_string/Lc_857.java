@@ -47,7 +47,6 @@ public class Lc_857 {
                 minCost = Math.min(minCost, workQuality * ((double) worker.wage / worker.quality));
             }
         }
-
         return minCost;
     }
 }
