@@ -18,11 +18,9 @@ public class Lc_2373 {
                         temp = Math.max(temp, grid[k][l]);
                     }
                 }
-
                 res[i - 1][j - 1] = temp;
             }
         }
-
         return res;
     }
 }
