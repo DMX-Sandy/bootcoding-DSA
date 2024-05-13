@@ -20,6 +20,7 @@ public class Lc_2373 {
                 res[i - 1][j - 1] = temp;
             }
         }
+
         return res;
     }
 }
