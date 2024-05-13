@@ -12,7 +12,6 @@ public class Lc_2373 {
         for(int i = 1; i < n - 1; ++i) {
             for(int j = 1; j < n - 1; ++j) {
                 int temp = 0;
-
                 for(int k = i - 1; k <= i + 1; ++k) {
                     for(int l = j - 1; l <= j + 1; ++l) {
                         temp = Math.max(temp, grid[k][l]);
