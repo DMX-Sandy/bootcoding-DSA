@@ -9,6 +9,7 @@ public class Cube_Range {
     }
     public static double Sumcube(double n, double m ,int k ){
         int sum =0;
+
         for(double i =n;i<=m;i++){
             sum += Math.pow(i,k);
         }
