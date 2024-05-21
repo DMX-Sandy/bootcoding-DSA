@@ -23,6 +23,7 @@ public class Merge_String_Alternately {
         System.out.println(str);
 
         System.out.println(str);
+
 //        char [] w1 = new char[word1.length()];
 //        char [] w2 = new char[word2.length()];
 //        char [] merger = new char[word1.length()+word2.length()];
