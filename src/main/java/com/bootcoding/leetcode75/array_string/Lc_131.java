@@ -19,7 +19,6 @@ public class Lc_131 {
             ans.add(new ArrayList<>(path));
             return;
         }
-
         for (int i = start; i < s.length(); ++i)
             if (isPalindrome(s, start, i)) {
                 path.add(s.substring(start, i + 1));
@@ -27,7 +26,6 @@ public class Lc_131 {
                 path.remove(path.size() - 1);
             }
     }
-
     private static boolean isPalindrome(final String s, int l, int r) {
         while (l < r)
             if (s.charAt(l++) != s.charAt(r--))
