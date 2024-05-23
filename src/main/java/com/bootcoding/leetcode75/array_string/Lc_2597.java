@@ -28,7 +28,6 @@ public class Lc_2597 {
                 count++;
             }
         }
-
         return count;
     }
 
