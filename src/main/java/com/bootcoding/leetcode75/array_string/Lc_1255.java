@@ -14,7 +14,6 @@ public class Lc_1255 {
         }
         return dfs(words, score, letterCount, 0);
     }
-
     private static int dfs(String[] words, int[] score, int[] letterCount, int index) {
         if (index == words.length) return 0;
         int skipScore = dfs(words, score, letterCount, index + 1);
