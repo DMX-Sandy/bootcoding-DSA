@@ -7,6 +7,7 @@ public class Lc_974 {
         System.out.println(subarraysDivByK(nums,k));
     }
     public static int subarraysDivByK(int[] nums, int k) {
+
         int res = 0;
         int prefix = 0;
         int[] arr = new int[k];
