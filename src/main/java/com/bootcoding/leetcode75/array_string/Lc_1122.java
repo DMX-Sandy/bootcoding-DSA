@@ -15,7 +15,6 @@ public class Lc_1122 {
     private static int rank(HashMap<Integer, Integer> map, int a) {
         return map.containsKey(a) ? map.get(a) : map.size();
     }
-
     public static int[] relativeSortArray(int[] arr1, int[] arr2) {
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < arr2.length; i++) {
